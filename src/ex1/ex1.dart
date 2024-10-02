@@ -26,7 +26,11 @@ void main(List<String> args){
          Book book = Book(titulo, autor!, isbn);
          library.addBook(book);
          print("Added the book $titulo to the library!");
+       } else{
+         print("Something went wrong, try again.");
        }
+     } else{
+       print("Something went wrong, try again.");
      }
    } else if(opcion == "b"){
      print("Type the book you want to remove");
